@@ -1,8 +1,19 @@
 ﻿{
-	"Name":"Example",		
-	"DisplayName":"演示模组(Example Mod)", 
-	"Desc":"这是一个模组的官方示范，它示范了模组可以提供的部分功能。",
-	"UIPackage":"UI/Sample", 
-	"UIPackage说明":"载入UI模块，多个包用逗号隔开，没有就删掉UIPackage",
-	"Author":"GSQ"
+  "LastRelease": null,
+  "LoadInfo": false,
+  "Name": "Example",
+  "DisplayName": "演示模组(Example Mod)",
+  "GameVersion": 0.0,
+  "Version": 1.0,
+  "Desc": "这是一个模组的官方示范，它示范了模组可以提供的部分功能。",
+  "Author": "GSQ",
+  "UIPackage": "UI/Sample",
+  "ID": "1209111477",
+  "Flag": 0,
+  "Tags": null,
+  "IncreasedDesc": "",
+  "IsInsideCreat": false,
+  "Previews": null,
+  "ParentModInfo": null,
+  "Url": "https://github.com/gsqstudio/acs1_example_mod"
 }
