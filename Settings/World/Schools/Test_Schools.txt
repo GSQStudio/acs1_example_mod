@@ -1,0 +1,3 @@
+ID	Name	Desc	Level	Rank	Gong	Miji	GLevel	GrandMaster	BasePower	UnLockBuilding	ZhenInfo	ZhenName	BodyPractice	Race
+499后不可用	门派名字	介绍	门派等级1寨 2派 3洞天	"正邪 0正邪未明 1,-1 亦正亦邪  2到4:正 -2到-4邪"	门派功法 随便填 没实体	门派秘籍	平均境界	祖师	基础实力	征服后解锁的建筑	阵法信息	阵法名字	是否为体修门派	种族，默认RANDOM随机种族 RANDOMYAOGUAI为随机妖怪
+20	测试_丹霞洞天	测试_上清于人间界嫡传，坐落于丹霞山绝顶，乃是正道砥柱。丹霞派精通法宝炼制之术，派中镇派十大神剑皆为十品以上的无上神兵。	3	4	己寅九冲多宝真解		5	灵宝天尊	30000					Human

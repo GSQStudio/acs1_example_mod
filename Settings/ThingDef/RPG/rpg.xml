@@ -1,0 +1,84 @@
+<ThingDefs><List>
+<ThingDef Type="Plant" Name="RoadLotus" Parent="PlantBase">	
+	
+	<ThingName>莲路</ThingName>	 
+	<TexPath>
+	res/Sprs/scene_TemperateForest_plant/scene_heye001a;
+	res/Sprs/scene_TemperateForest_plant/scene_heye001b;
+	res/Sprs/scene_TemperateForest_plant/scene_heye001c;
+	res/Sprs/scene_TemperateForest_plant/scene_heye001d
+	</TexPath>
+	<Desc>水生植物，外形美丽。其根茎可以食用。</Desc>
+	<Frags>		
+		<li Frag="Lake" />
+	</Frags>
+	<SelectAble>0</SelectAble>
+	<Beauty>15</Beauty>
+	<Rate>3</Rate>	
+	<GrowAble>0</GrowAble>
+	<UseHitPoints>0</UseHitPoints>
+	<MaxHitPoints>150</MaxHitPoints>
+	
+	<Plant>
+		<PlantLayer>PlantLow</PlantLayer>		
+		<VisualSizeMin>0.5</VisualSizeMin>
+		<VisualSizeMax>0.7</VisualSizeMax>	
+		<SowPlaceKind>Water</SowPlaceKind>			
+		<SnowRenderData>
+			<x>2</x>
+			<y>3.3</y>
+			<z>1</z>
+		</SnowRenderData>	
+	</Plant>	
+	</ThingDef>		
+	
+	<ThingDef Type="Building" Name="Lotus_Move" Parent="FurnitureBase">
+	<ThingName>机关</ThingName>	
+	<Tags>
+		<Tag Name="Sitable" Level="1"/>
+		<Tag Name="Practice" Level="15"/>
+	</Tags>
+		<Frags>			
+			<li Frag="SeeTrain" />
+		</Frags>	
+
+	<TexScale>0.75</TexScale>
+	<NoElementKind>1</NoElementKind>
+	<TexPath>Spr\Object\xld_heye.png</TexPath>
+	<SelectAble>0</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<BlockLight>0</BlockLight>	
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[6],
+		</Data>
+		<WorkOffset>
+			<li Index="0"  X="0" Y="0" Ang="181"/>
+		</WorkOffset>
+	</Collider>
+
+	<Building>		
+		<OwnerCount>1</OwnerCount>
+		<NoFengshui>1</NoFengshui>
+		<TerrainAffordanceNeeded>Water</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr\Object\xld_heye.png</WorkTexPath>
+		
+		<PracticeEffectiveness>0.5</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "Cloth"/>
+			</StuffCategories>
+			<CostStuffCount>10</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.5</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+</List></ThingDefs>

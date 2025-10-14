@@ -1,0 +1,13 @@
+﻿<Esotericas><List>	
+	<Esoterica Name="ModTest_Esoterica">
+		<DisplayName>演示秘籍</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>演示秘籍</Desc>
+		<Type>Skill</Type>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>演示秘籍</EffectDesc>
+		<Modifier>ModTest_Modifier</Modifier>	
+	</Esoterica>	
+</List></Esotericas>

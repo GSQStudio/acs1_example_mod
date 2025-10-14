@@ -1,0 +1,10 @@
+﻿<MoodDefs><List>
+	<Mood Name="ModTest_Mood">
+		<DisplayName>演示情绪</DisplayName>
+		<Desc>演示情绪</Desc>
+		<StoryDesc>演示情绪嘛</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<Value>15</Value>
+		<Duration>0</Duration>
+	</Mood>	
+</List></MoodDefs>

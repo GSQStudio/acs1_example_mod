@@ -1,0 +1,488 @@
+﻿<DlgDefs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <List>
+    <Def Name="Example_meet">
+      <Nodes>
+        <li Type="Begin" Name="_start_">
+          <Text>入口</Text>
+          <Links>
+            <li>1505687552</li>
+          </Links>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>273</x>
+          <y>27</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="1527653888">
+          <Text>新功能</Text>
+          <Links>
+            <li>-1172967936</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>316</x>
+          <y>208</y>
+          <fParam1>3</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>{{target.Key,5}}</sParam1>
+          <sParam2 />
+          <NodeClass>CameraMove</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="-460912128">
+          <Text>新功能</Text>
+          <Links>
+            <li>-1268921344</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>571</x>
+          <y>114</y>
+          <fParam1>3</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>player</sParam1>
+          <sParam2>这种地方，如此貌美的姑娘..莫非真的让我遇上了仙女。</sParam2>
+          <NodeClass>Dialogbox</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="194376192">
+          <Text>新功能</Text>
+          <Links>
+            <li>-460912128</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>328</x>
+          <y>452</y>
+          <fParam1>2</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>{{player.Key, 5}}</sParam1>
+          <sParam2 />
+          <NodeClass>CameraMove</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="-1172967936">
+          <Text>新功能</Text>
+          <Links>
+            <li>194376192</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>317</x>
+          <y>328</y>
+          <fParam1>2</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1 />
+          <sParam2 />
+          <NodeClass>WaitSecond</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="-1268921344">
+          <Text>新功能</Text>
+          <Links>
+            <li>-1985446912</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>573</x>
+          <y>238</y>
+          <fParam1>2</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>player</sParam1>
+          <sParam2>嘿，有了...</sParam2>
+          <NodeClass>Dialogbox</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="-1985446912">
+          <Text>新功能</Text>
+          <Links>
+            <li>-1041282048</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>570</x>
+          <y>354</y>
+          <fParam1>2</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>{{target.Key,5}}</sParam1>
+          <sParam2 />
+          <NodeClass>CameraMove</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="255677952">
+          <Text>新功能</Text>
+          <Links>
+            <li>-274053120</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>795</x>
+          <y>124</y>
+          <fParam1>1</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>{{player.Key,5}}</sParam1>
+          <sParam2 />
+          <NodeClass>CameraMove</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="-274053120">
+          <Text>新功能</Text>
+          <Links>
+            <li>1847947776</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>791</x>
+          <y>255</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>Map:StrikePoint(player.Key+1);
+Map:StrikePoint(player.Key-1);
+Map:StrikePoint(player.Key);
+</sParam1>
+          <sParam2 />
+          <NodeClass>DoLua</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Speech" Name="1505687552">
+          <Text>这是？</Text>
+          <Links>
+            <li>1059305984</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc>[PLAYER]</Npc>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>75</x>
+          <y>85</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1 />
+          <sParam2 />
+          <NodeClass />
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="1847947776">
+          <Text>新功能</Text>
+          <Links>
+            <li>309134848</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>797</x>
+          <y>360</y>
+          <fParam1>1</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1 />
+          <sParam2 />
+          <NodeClass>WaitSecond</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="515511296">
+          <Text>新功能</Text>
+          <Links>
+            <li>-24785920</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>800</x>
+          <y>595</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>Map:StrikePoint(player.Key+1);
+Map:StrikePoint(player.Key-1);
+Map:StrikePoint(player.Key);
+player:PlayAnimationView("kszdjidao1");</sParam1>
+          <sParam2 />
+          <NodeClass>DoLua</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Speech" Name="-1041282048">
+          <Text>谁？</Text>
+          <Links>
+            <li>255677952</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc>[TARGET]</Npc>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>578</x>
+          <y>462</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1 />
+          <sParam2 />
+          <NodeClass />
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="1059305984">
+          <Text>新功能</Text>
+          <Links>
+            <li>1527653888</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>96</x>
+          <y>192</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>CS.MapCamera.Instance.StopLock = true;</sParam1>
+          <sParam2 />
+          <NodeClass>DoLua</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="-24785920">
+          <Text>新功能</Text>
+          <Links>
+            <li>1894502912</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>804</x>
+          <y>720</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>CS.MapCamera.Instance.StopLock = false;</sParam1>
+          <sParam2 />
+          <NodeClass>DoLua</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Speech" Name="309134848">
+          <Text>怎么突然打起雷了？</Text>
+          <Links>
+            <li>515511296</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc>[PLAYER]</Npc>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>801</x>
+          <y>481</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1 />
+          <sParam2 />
+          <NodeClass />
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Speech" Name="1894502912">
+          <Text>啊啊啊啊~怎么不按套路出牌啊</Text>
+          <Links>
+            <li>-1801607680</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc>[PLAYER]</Npc>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>1081</x>
+          <y>166</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1 />
+          <sParam2 />
+          <NodeClass />
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Speech" Name="-1801607680">
+          <Text>因为实在不想做了</Text>
+          <Links />
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc>[TARGET]</Npc>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>1087</x>
+          <y>272</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1 />
+          <sParam2 />
+          <NodeClass />
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+      </Nodes>
+    </Def>
+  </List>
+</DlgDefs>
+
+<!-- 注：请尽量使用游戏编辑工具来进行修改对话，以免出现不可预计的错误 -->

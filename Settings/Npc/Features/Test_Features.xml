@@ -1,0 +1,49 @@
+﻿<FeatureDefs><List>
+	<Feature Name="ModTest_Feature" Type="Normal"><!--MOD演示特性-->
+		<HideInUI>0</HideInUI> 	
+		<DisplayName>演示特性</DisplayName>
+		<Desc>一个演示特性</Desc>
+		<!--<Mutex>
+			<li>CrippleLeft</li>
+			<li>CrippleRight</li>
+		</Mutex>-->
+		<!--<BanRelations>
+				<li>Parent</li>
+		</BanRelations>-->
+		<!--<Opposition> 对立特性
+			<li>StinkAllOver</li>
+			<li>Slovenly</li>
+		</Opposition>-->
+		<!--<Close>亲近特性
+			<li>Cleanliness</li>
+		</Close>-->
+	<!--	<MoodBranch> 心情分支
+			<li Old="BedroomExpect8" New="BedroomExpect6"/>
+		</MoodBranch>-->
+		<ModifierDef>
+			<BaseFive>5,5,5,5,5</BaseFive>
+			<Properties>
+				<li Name="MoveSpeed" AddP="0.5"/>
+				<li Name="VisionRadius" AddP="-0.5"/>
+			</Properties>
+			<Skills>
+				<li Name="Building" Level="1"/>
+				<li Name="Mining" Level="2"/>
+			</Skills>
+			<Moods>
+				<li>ModTest_Mood</li>
+			</Moods>
+			<!--<BanBodyParts>
+				<li>LeftEye</li>
+			</BanBodyParts>-->
+			<!--<BanJobs>
+				<li>Clean</li>
+				<li>Build</li>
+			</BanJobs>-->
+		<!--	<Damages>
+				<li Part="LeftThighbone" Damage="Scar" Value="0.5"/>
+			</Damages>-->
+		</ModifierDef>
+	</Feature>	
+
+</List></FeatureDefs>

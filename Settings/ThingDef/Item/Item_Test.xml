@@ -1,0 +1,74 @@
+<ThingDefs><List>	
+	<ThingDef Type="Item" Name="Item_ModTestItem">	
+		<ThingName>测试道具</ThingName>
+		<TexPath>Spr\Object\object_test.png</TexPath>	
+		<Desc>测试道具</Desc>
+		<MaxStack>1</MaxStack>
+		<Beauty>5</Beauty>
+		<Rate>1</Rate>
+		<ElementKind>Mu</ElementKind>
+		
+		<Flammability>
+			<Flammability>0.6</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>120</BurningPoint>
+		</Flammability>
+		
+		<Item Lable="Other">	
+			<FabaoSuffix>册,书,简,卷</FabaoSuffix>
+			<PhysicalLables>
+				<li>Light1</li>
+				<li>Soft1</li>
+			</PhysicalLables>			
+		</Item>
+		<Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>1</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>0</AddionFailRadius>
+			
+			<Attenuation>0.05</Attenuation>
+			<Absorption>0.6</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_TestSword" Parent="Item_WeaponSword">	
+		<ThingName>测试_霜之哀伤</ThingName>
+		<TexPath>res\Sprs\object\object_weaponjian01</TexPath>		
+		<ModPath>Mod/Weapon/Test/test.FBX</ModPath>
+		<ModScale>0.05</ModScale>
+		<Desc>测试道具</Desc>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Lable="Weapon">
+			<Equip>			
+				<ModPath>Mod/Weapon/Test/test.FBX</ModPath>
+				<NpcMod>Mod/Npc/Human/Npc1/test.FBX</NpcMod><!--装备后变身为这个模型-->
+			</Equip>
+		</Item>
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Test_Tirger_NormalAttack" Parent="NormalAttackBase">
+	<ThingName>老虎攻击</ThingName>
+	<Rate>6</Rate>		
+	<Item>		
+		<Equip>
+			<Damage>1</Damage>
+			<AttackSpeed>1</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.25" DescTags="爪击"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.45" DescTags="利齿"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.45" DescTags="爪击"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.2" DescTags="撞击"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="Atk" HitPoint="19"/>
+				<li Name="Atk2" HitPoint="10"/>
+			</AtkAnis>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+</List></ThingDefs>

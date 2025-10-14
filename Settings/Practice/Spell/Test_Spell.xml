@@ -1,0 +1,10 @@
+<Spells><List>			
+<!--	<Spell Name="Spell_MoveSpeed1">
+		<DisplayName>轻身符</DisplayName>
+		<Desc>可以提高移动速度的符咒。</Desc>
+		<Template>Spell/main_texture_qingshen01</Template>
+		<Effects>
+			<li Name="MoveSpeed" AddP="0.3"/>
+		</Effects>
+	</Spell>	-->	
+</List>	</Spells>

@@ -1,0 +1,22 @@
+<DamageDefs><List>
+	<Damage Name="ModTest_Damage1">
+		<DisplayName>演示伤害</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.05</ValueMin>
+		<ValueMax>0.05</ValueMax>
+		<Pain>0</Pain>
+		<Next>ModTest_Damage2</Next>
+		<Trend>0.3</Trend>
+	</Damage>
+	
+	<Damage Name="ModTest_Damage2">
+		<DisplayName>演示伤害2</DisplayName>
+		<Lable>OldScar</Lable>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0</ValueMin>
+		<ValueMax>0</ValueMax>
+		<Pain>0</Pain>
+		<Trend>0</Trend>
+	</Damage>
+
+</List></DamageDefs>

@@ -1,0 +1,22 @@
+<TerrainDefs><List>
+	<TerrainDef Name="ShallowWater_nopass" Parent="TerrainBase">
+		<DisplayName>浅水-不可通行</DisplayName>
+		<Tags>
+			<Tag Name="DepthWater" Level="1"/>
+		</Tags>
+		<OutFix>Mud</OutFix>
+	<!--	<Color>FF010DFF</Color>-->
+		<TerrainType>DepthWater</TerrainType>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>100</PathCost>
+		<DustPower>2</DustPower>
+		<Fertility>1.6</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>1</Beauty>
+		<MiniColor>5C8690FF</MiniColor>
+		<Elements>
+			<li Kind="Shui" Power="2"/>
+			<li Kind="Tu" Power="1"/>
+		</Elements>
+	</TerrainDef>
+</List></TerrainDefs>

@@ -1,0 +1,16 @@
+<Places><List>	
+	<Place Name="ModTest_Place">
+		<Level>3</Level>
+		<Scale>0.75</Scale>
+		<School>-1</School>
+		<UnLocked>0</UnLocked>
+		<ExploreNum>0</ExploreNum>
+		<Location X="683" Y="981"/>
+		<DisplayName>演示地点</DisplayName>
+		<Desc>演示地点。</Desc>
+		<Icon>res/Sprs/map/map_shan02</Icon>
+		<!--<Events><!{1}** 除外都是随便逛逛**{1}>
+			<li Name="BaoZang_QingLianShan" Rate="1"/>
+		</Events>-->
+	</Place>
+</List></Places>

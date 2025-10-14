@@ -1,0 +1,82 @@
+﻿<DlgDefs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <List>
+    <Def Name="test">
+      <Nodes>
+        <li Type="Begin" Name="_start_">
+          <Text>入口</Text>
+          <Links>
+            <li>-2081089536</li>
+          </Links>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>250</x>
+          <y>90</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Speech" Name="-2081089536">
+          <Text>你好！</Text>
+          <Links>
+            <li>-1668938240</li>
+          </Links>
+          <Npc>[TARGET]</Npc>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>250</x>
+          <y>200</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Function" Name="-1668938240">
+          <Text>新功能</Text>
+          <Links>
+            <li>1385898496</li>
+          </Links>
+          <VisibleScript />
+          <EnableScript />
+          <ExecuteScript />
+          <Sound />
+          <pAni />
+          <pEffect />
+          <tAni />
+          <tEffect />
+          <Npc />
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>332</x>
+          <y>343</y>
+          <fParam1>2</fParam1>
+          <fParam2>0</fParam2>
+          <sParam1>{{5000,15}}</sParam1>
+          <sParam2 />
+          <NodeClass>CameraMove</NodeClass>
+          <HideDlg>1</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+        <li Type="Speech" Name="1385898496">
+          <Text>新对话</Text>
+          <Links />
+          <Npc>[TARGET]</Npc>
+          <Weigth>1</Weigth>
+          <ShowHead>1</ShowHead>
+          <ShowDt>30</ShowDt>
+          <x>398</x>
+          <y>474</y>
+          <fParam1>0</fParam1>
+          <fParam2>0</fParam2>
+          <HideDlg>0</HideDlg>
+          <GameStep>0</GameStep>
+        </li>
+      </Nodes>
+    </Def>
+  </List>
+</DlgDefs>
+
+<!-- 注：请尽量使用游戏编辑工具来进行修改对话，以免出现不可预计的错误 -->

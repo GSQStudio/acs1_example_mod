@@ -1,0 +1,7 @@
+<SpecialNames><List>
+	<SpecialItem Name="Item_HomeFood">
+		<Item_BoarMeat>
+			<Name Name="肉肉饭" Desc="演示名字"/>
+		</Item_BoarMeat>	
+	</SpecialItem>
+</List></SpecialNames>

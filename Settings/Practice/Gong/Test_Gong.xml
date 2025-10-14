@@ -1,0 +1,130 @@
+﻿<Gongs><List>
+	<Gong Name="ModTest_Gong">
+		<DisplayName>演示功法</DisplayName>
+		<Desc>演示功法</Desc>
+		<FiveBaseNeed>1,-1,3,-1,1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Stages>
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>调身</DisplayName>
+				<Desc>调整肉身，适应功法</Desc>
+				<Value>10000</Value>
+				<Necks>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>概率瓶颈</DisplayName>
+						<Desc>概率瓶颈概率瓶颈</Desc>
+						<CostTime>30</CostTime>
+						<SuccessChange>0.2</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Age" value="10"/>
+						</ResourceCost>
+						<AddModifier></AddModifier>
+						<Damages>
+							<li PartKind="Flesh" Name="Bruise1" Rate="0.25"/>
+							<li PartKind="Flesh" Name="Bruise2" Rate="0.1"/>
+							<li PartKind="Flesh" Name="Scald1" Rate="0.25"/>
+							<li PartKind="Flesh" Name="Scald2" Rate="0.1"/>
+							<li PartKind="Bone" Name="Fracture1" Rate="0.1"/>
+						</Damages>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>历练瓶颈</DisplayName>
+						<Desc>历练瓶颈历练瓶颈</Desc>
+						<CostTime>20</CostTime>
+						<ConversionRate>0.01</ConversionRate>
+						<DynamicChanceType>Experience</DynamicChanceType>
+						<ItemCost>
+							<Item name="Item_Wood"/>
+						</ItemCost>
+						<AddModifier></AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>瓶颈3</DisplayName>
+						<Desc>瓶颈3瓶颈3</Desc>
+						<CostTime>30</CostTime>
+						<ConversionRate>0.01</ConversionRate>
+						<DynamicChanceType>Understand</DynamicChanceType>
+						<ResourceCost>
+							<Resource kind="Age" value="2"/>
+							<Resource kind="Ling" value="100"/>
+						</ResourceCost>
+						<ItemCost>
+							<Item tag="_LableRockBlock"/>
+						</ItemCost>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage2" Level="2">
+				<DisplayName>内照</DisplayName>
+				<Desc>静心观想，内视五脏。</Desc>
+				<Value>10000</Value>
+				<Necks>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>历练瓶颈</DisplayName>
+						<Desc>历练瓶颈历练瓶颈</Desc>
+						<CostTime>20</CostTime>
+						<ConversionRate>0.01</ConversionRate>
+						<ItemCost>
+							<Item name="Item_Wood" count="1"/>
+						</ItemCost>
+						<AddModifier></AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			<Stage Name="Stage3" Level="3">
+				<DisplayName>炼形</DisplayName>
+				<Desc>玄关洞开，连接天地</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage4" Level="4">
+				<DisplayName>玄关</DisplayName>
+				<Desc>无敌无敌无敌无敌</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage5" Level="5">
+				<DisplayName>大药</DisplayName>
+				<Desc>采集灵气，火候渐深</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage6" Level="6">
+				<DisplayName>结丹</DisplayName>
+				<Desc>神气结合，浑然一体</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage7" Level="7">
+				<DisplayName>金丹</DisplayName>
+				<Desc>明晰真我，元神孕育</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage8" Level="8">
+				<DisplayName>温养</DisplayName>
+				<Desc>百年温养，逐渐成型</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage9" Level="9">
+				<DisplayName>婴儿</DisplayName>
+				<Desc>打破枷锁，元神诞生</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage10" Level="10">
+				<DisplayName>出窍</DisplayName>
+				<Desc>凝练罡煞，元神出窍</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage11" Level="11">
+				<DisplayName>阳神</DisplayName>
+				<Desc>九重天雷，成就纯阳</Desc>
+				<Value>10000</Value>
+			</Stage>
+			<Stage Name="Stage12" Level="12">
+				<DisplayName>混元</DisplayName>
+				<Desc>即将飞升，融会贯通，留下道统</Desc>
+				<Value>10000</Value>
+			</Stage>
+			
+		</Stages>
+	</Gong>
+</List></Gongs>

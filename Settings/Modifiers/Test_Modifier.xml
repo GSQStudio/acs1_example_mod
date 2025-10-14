@@ -1,0 +1,13 @@
+<ModifierDefs><List>
+	<Modifier Name="ModTest_Modifier" Type="Normal">
+		<DisplayName>演示Modifier</DisplayName>
+		<Desc>演示Modifier</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>0</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync><!--跨场景时是否同步-->
+		<Properties>
+			<li Name="MoveSpeed" AddV="5"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

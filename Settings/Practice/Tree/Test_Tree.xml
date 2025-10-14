@@ -1,0 +1,22 @@
+﻿<SkillTree><List>	
+	<Node Name="ModTest_Gong_a1" Gong="ModTest_Gong">
+		<Esoterica>Magic_Healing_Intelligence_1</Esoterica>
+		<DisplayName>啊1</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+
+		</PreUnit>
+<!--		<MutexUnit>
+			<li></li>
+		</MutexUnit>-->
+		<FiveBase>0,0,0,0,0</FiveBase>
+<!--		<Skills>
+			<li Name="" Level="1"/>
+		</Skills>-->
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>	
+</List></SkillTree> 

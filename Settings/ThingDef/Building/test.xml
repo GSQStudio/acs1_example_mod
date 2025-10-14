@@ -1,0 +1,44 @@
+﻿<ThingDefs><List>
+<ThingDef Type="Building" Name="Building_ModTest" Parent="OrnamentBase">
+	<TexPath>Spr\Building\building_test.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>测试狮子</ThingName>	
+	<Tags>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.5</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<BeMade>
+			<WorkToMake>400</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>12</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.90</x>
+			<y>3.60</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	</ThingDef>	
+</List></ThingDefs>

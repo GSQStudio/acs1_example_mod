@@ -1,0 +1,24 @@
+﻿<Experiences><List>
+	<Experience Name="ModTest_Experiences">
+		<DisplayName>演示经历</DisplayName>
+		<Desc>演示经历。\n\n\n[size=10][color=#D06508]巧匠[/color]技能提升。\n[color=#D06508]丹器[/color]技能提升。\n初始[color=#D06508]材料类物资[/color]大幅提升。\n初始物资增添[color=#D06508]稀有材料[/color]。[/size]</Desc>
+		<Point>3</Point>
+		<ModifierDef>
+			<Skills>
+				<li Name="Manual" Level="5"/>
+				<li Name="DanQi" Level="5"/>
+			</Skills>
+		</ModifierDef>
+		<Esoterics>
+			<li>ModTest_Esoteriac</li>
+		</Esoterics>	
+		<Items>
+			<li Name= "Item_Jade" Count="20"/>
+			<li Name= "Item_HardWood" Count="20"/>
+			<li Name= "Item_CopperRock" Count="20"/>
+			<li Name= "Item_SilverRock" Count="20"/>
+			<li Name= "Item_DarksteelRock" Count="10"/>
+			<li Name= "Item_JadeEssence" Count="1"/>
+		</Items>		
+	</Experience>	
+</List></Experiences>

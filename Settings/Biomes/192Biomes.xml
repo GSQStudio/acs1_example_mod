@@ -1,0 +1,299 @@
+<BiomeDefs><List>
+	<!--<Biome Name="192Biome" Parent="BiomeBase">
+		<BurshLayer1>
+			<Texture0>Terrain/Texs/test/soil</Texture0>
+			<Texture1>Terrain/Texs/test/mud</Texture1>
+			<Texture2>Terrain/Texs/test/richsoil</Texture2>
+			<Texture3>Terrain/Texs/test/stone</Texture3>
+		</BurshLayer1>
+		<BurshLayer2>
+			<Texture0>Terrain/Texs/test/mud</Texture0>
+			<Texture1>Terrain/Texs/test/Ling</Texture1>
+			<Texture2>Terrain/Texs/test/WaterDeep</Texture2>
+			<Texture3>Terrain/Texs/test/WaterShallow</Texture3>
+		</BurshLayer2>
+		<PlantAble>
+			<li>Wheat</li>
+			<li>Healroot</li>
+			<li>Mushroom</li>
+			<li>Cotton</li>
+			<li>TreePear</li>
+			<li>TreeGinkgo</li>
+			<li>Flower1</li>
+			<li>Flower2</li>
+			<li>Flower3</li>
+			<li>Flower4</li>
+			<li>Flower5</li>
+		</PlantAble>
+		<DisciplePlantAble>
+			<li>Ginseng</li>
+			<li>GanodermaLucidum</li>
+			<li>Mint</li>
+			<li>MagicHerb</li>
+		</DisciplePlantAble>
+		<BGM>
+			<li>bgm1</li>
+			<li>bgm2</li>
+			<li>bgm3</li>
+			<li>bgm4</li>
+			<li>bgm_open</li>
+		</BGM>
+		<EnvironmentDisease>
+			<Base><!{1}**地域伤病**{1}>
+				<li Name="Cold1" Rate="0.00005" PartName = "TheWholeBody"/>
+				<li Name="Boil" Rate="0.00001" PartName = "Face"/>
+				<li Name="Boil" Rate="0.00001" PartName = "LeftLeg"/>
+				<li Name="Boil" Rate="0.00001" PartName = "RightLeg"/>
+				<li Name="Boil" Rate="0.00001" PartName = "LeftArm"/>
+				<li Name="Boil" Rate="0.00001" PartName = "RightArm"/>
+				<li Name="Hemorrhoids" Rate="0.00001" PartName = "Hips"/>
+				<li Name="Toothache" Rate="0.00001" PartName = "AllHead"/>
+				<li Rate="0.99945"/>
+			</Base>
+		</EnvironmentDisease>
+		
+		<Plants>
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>Grass</PlantName>
+				<Param>40</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Grass</PlantName>
+				<Param>90</Param>
+			</Plant>
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>LongGrass</PlantName>
+				<Param>10</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>LongGrass</PlantName>
+				<Param>60</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>TreePoplar</PlantName>
+				<Param>45</Param>
+			</Plant>
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>TreePine</PlantName>
+				<Param>8</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>TreePine_Big</PlantName>
+				<Param>1.8</Param>
+			</Plant>
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>TreeGinkgo_Big</PlantName>
+				<Param>0.02</Param>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>Healroot</PlantName>
+				<Param>6</Param>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>TreeGinkgo</PlantName>
+				<Param>2.5</Param>
+			</Plant>
+			
+			<!{1}**<Plant>
+				<Type>Cluster</Type>
+				<PlantName>TreeGinkgo_Big</PlantName>
+				<Param>1</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>**{1}>
+			
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>TreePear</PlantName>
+				<Param>2.5</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>Reed</PlantName>
+				<Param>16</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>Mushroom</PlantName>
+				<Param>16</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>
+				<PlantName>Raspberry</PlantName>
+				<Param>2</Param>
+			</Plant>
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Dandelion</PlantName>
+				<Param>5</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Flower1</PlantName>
+				<Param>1</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Flower2</PlantName>
+				<Param>1</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Flower3</PlantName>
+				<Param>1</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Flower4</PlantName>
+				<Param>1</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Flower5</PlantName>
+				<Param>1</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			
+			<Plant>
+				<Type>Cluster</Type>
+				<PlantName>Lotus</PlantName>
+				<Param>30</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			<Plant>
+				<Type>Random</Type>			
+				<LoveLing>0</LoveLing>
+				<PlantName>LittleRock</PlantName>
+				<Param>10</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>			
+				<PlantName>Box_Cargo</PlantName>
+				<Param>0.5</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+			
+			<Plant>
+				<Type>Random</Type>			
+				<PlantName>Box_Corpse</PlantName>
+				<Param>0.2</Param>
+				<LoveLing>0</LoveLing>
+			</Plant>
+		</Plants>
+		<Animals>
+			<Animal>
+				<AnimalName>Rabbit</AnimalName>
+				<ClusterRadius>5</ClusterRadius>
+				<ClusterCount>2</ClusterCount>
+				<Count>6</Count>
+			</Animal>
+			<Animal>
+				<AnimalName>Wolf</AnimalName>
+				<ClusterRadius>5</ClusterRadius>
+				<ClusterCount>1</ClusterCount>
+				<Count>2</Count>
+			</Animal>
+			<Animal>
+				<AnimalName>Snake</AnimalName>
+				<ClusterRadius>5</ClusterRadius>
+				<ClusterCount>1</ClusterCount>
+				<Count>2</Count>
+			</Animal>
+			<Animal>
+				<AnimalName>Boar</AnimalName>
+				<ClusterRadius>3</ClusterRadius>
+				<ClusterCount>1</ClusterCount>
+				<Count>2</Count>
+			</Animal>
+			<Animal>
+				<AnimalName>Bear</AnimalName>
+				<ClusterRadius>5</ClusterRadius>
+				<ClusterCount>1</ClusterCount>
+				<Count>2</Count>
+			</Animal>
+			<Animal>
+				<AnimalName>Chicken</AnimalName>
+				<ClusterRadius>5</ClusterRadius>
+				<ClusterCount>2</ClusterCount>
+				<Count>6</Count>
+			</Animal>
+			<Animal>
+				<AnimalName>Turtle</AnimalName>
+				<ClusterRadius>5</ClusterRadius>
+				<ClusterCount>1</ClusterCount>
+				<Terrains>
+					<li>Mud</li>
+					<li>ShallowWater</li>
+				</Terrains>
+				<Count>3</Count>
+			</Animal>
+			<Animal>
+				<AnimalName>Frog</AnimalName>
+				<ClusterRadius>5</ClusterRadius>
+				<ClusterCount>2</ClusterCount>
+				<Terrains>
+					<li>Mud</li>
+					<li>ShallowWater</li>
+				</Terrains>
+				<Count>3</Count>
+			</Animal>
+		</Animals>
+		<Specials>
+			<Special>
+				<Type>Replace</Type>
+				<Source>RockBrown</Source>
+				<Name>Darksteel</Name>
+				<Param>10</Param>
+			</Special>
+			<Special>
+				<Type>Replace</Type>
+				<Source>RockBrown</Source>
+				<Name>RockJade</Name>
+				<Param>50</Param>
+			</Special>
+			<Special>
+				<Type>Replace</Type>
+				<Source>RockBrown</Source>
+				<Name>RockCinnabar</Name>
+				<Param>50</Param>
+			</Special>
+		</Specials>
+	</Biome>-->
+</List></BiomeDefs>

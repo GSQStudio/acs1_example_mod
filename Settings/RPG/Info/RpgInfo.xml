@@ -1,0 +1,12 @@
+<Defs><List>
+	<Def Name="Example_World">
+		<Title>测试世界</Title>
+		<Desc>一个未完成的世界。</Desc>
+		<MinEnterNpc>1</MinEnterNpc>
+		<MaxEnterNpc>5</MaxEnterNpc>
+		<NeedUnlock>0</NeedUnlock>
+		<Places>
+			<li>Place_BirthPlace12</li>
+		</Places>
+	</Def>
+</List></Defs>

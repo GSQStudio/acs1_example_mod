@@ -1,0 +1,46 @@
+<RaceDefs><List>
+<RaceDef Name="Test_Animal">
+	<DisplayName>老虎</DisplayName>
+	<Mod>Mod/Npc/Monster/tirger/tirger.fbx</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>1</Revive>
+	<MaleName>雄</MaleName>
+	<FemaleName>雌</FemaleName>
+	<NormalAttack>Test_Tirger_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>2.9</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>1</GenerateMinAge>
+	<GenerateMaxAge>14</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>4</WarningRange>
+	
+	<BreedingLikeTame>
+		<li>TameMeat</li>
+		<li>TameLing</li>
+	</BreedingLikeTame>
+
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+</List></RaceDefs>

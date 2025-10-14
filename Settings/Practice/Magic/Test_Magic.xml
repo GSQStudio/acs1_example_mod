@@ -1,0 +1,84 @@
+<Magics><List>
+	<Magic Name="ExampleMagic" Type="Class">
+		<DisplayName>演示神通</DisplayName>
+		<Desc>演示神通 演示了一种圆形造山术</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<!--施展动画-->
+		<Ani>LJST2</Ani>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>None</Kind>
+		<!--灵气消耗-->
+		<CostLing>100</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>5</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Ellipse</SelectMode>
+		<!--如果释放模式是非单体，可以设置一个最大释放面积-->
+		<MaxArea>9999</MaxArea>
+		<!--如果对NPC释放，NPC的反应动画-->
+		<TargetAni>dazuo</TargetAni>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>NoBuilding|InLight|Walkable</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>Example_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一块空地</TargetDesc>
+	</Magic>
+	
+	
+	<Magic Name="ExampleMagic2" Type="Class">
+		<DisplayName>演示神通2</DisplayName>
+		<Desc>演示神通 可以将一个活体动物变大</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<!--施展动画-->
+		<Ani>LJST2</Ani>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>Good</Kind>
+		<!--灵气消耗-->
+		<CostLing>100</CostLing>
+		<!--消耗寿命-->
+		<CostAge>1</CostAge>		
+		<!--天谴-->
+		<Penalty>1</Penalty>		
+		<!--门派善名-->
+		<ScoreGood>10</ScoreGood>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>5</Param1>	
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--如果对NPC释放，NPC的反应动画-->
+		<TargetAni>dazuo</TargetAni>		
+		<SelectTarget>Npc</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>Example_Magic2</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一只活着的动物</TargetDesc>
+	</Magic>
+</List></Magics>

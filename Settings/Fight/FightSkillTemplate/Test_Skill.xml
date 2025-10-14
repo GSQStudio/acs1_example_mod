@@ -1,0 +1,28 @@
+<FightSkills><List>	
+
+<!--	<Skill Name="DamageSkill_1">
+		<DisplayName>先天罡气</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>2</CD>
+		<LingCost>80</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>20</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<Missile>	<!{1}**弹道数据，贝塞尔曲线的四个参数**{1}>
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>-->
+	
+</List></FightSkills>
