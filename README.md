@@ -33,6 +33,9 @@ e.g.
 - 0.1
 - 1.2
 
+## 4.Add MOD to the official list
+https://github.com/GSQStudio/acs1_mods/
+
 ---
 
 # 了不起的修仙模拟器移动版 MOD 范例
@@ -69,5 +72,8 @@ e.g.
 - 0.0.1
 - 0.1
 - 1.2
+
+## 4.添加mod到官方列表
+https://github.com/GSQStudio/acs1_mods/
 
 
