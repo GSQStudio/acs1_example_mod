@@ -29,7 +29,6 @@ In the MOD root directory:
 ## 3. How to publish your MOD
 Publish a Release and use numbers and dots for the Tag name.
 e.g.
-- 0.0.1
 - 0.1
 - 1.2
 
@@ -69,7 +68,6 @@ https://github.com/GSQStudio/acs1_mods/
 ## 3. 如何发布你的MOD
 发布一个 Release，Tag 名称使用数字和点。
 例如：
-- 0.0.1
 - 0.1
 - 1.2
 
