@@ -1,5 +1,6 @@
 # Example MOD for Amazing Cultivation Simulator Mobile
 
+
 ## 1. How to create a MOD
 The easiest and fastest way is to modify configuration files (settings/scripts). Put the modified files in the same directory under the mod folder to be loaded.
 For configuration files and documentation, see: https://github.com/GSQStudio/acs1_mods/tree/master/Docs
@@ -26,13 +27,20 @@ In the MOD root directory:
 - **UIPackage**: UI package, fill in if you have custom UI files, e.g. `"UI/Sample"`
 - **Dependencies**: Other MODs required, use GitHub URLs, e.g. `["https://github.com/GSQStudio/acs1_example_mod"]`
 
-## 3. How to publish your MOD
+## 3. How to Testing MOD
+1. Use the client to fetch the mod via the git repository address and complete testing on your device. This feature is located at the top right corner of the MOD store.
+![IMG](./github_upload.png)
+
+2. Test using the PC version of ACS: https://store.steampowered.com/app/955900
+
+
+## 4. How to publish your MOD
 Publish a Release and use numbers and dots for the Tag name.
 e.g.
 - 0.1
 - 1.2
 
-## 4.Add MOD to the official list
+## 5.Add MOD to the official list
 https://github.com/GSQStudio/acs1_mods/
 
 ---
@@ -65,13 +73,19 @@ https://github.com/GSQStudio/acs1_mods/
 - **UIPackage**: UI包，如果有自定义UI文件需填写，例如 `"UI/Sample"`
 - **Dependencies**: 依赖的其他MOD，填写GitHub地址，例如 `["https://github.com/GSQStudio/acs1_example_mod"]`
 
-## 3. 如何发布你的MOD
+## 3. 如何测试MOD
+1.在客户端使用使用git库地址拉取mod并在你的设备上完成测试。功能位于MOD商店的右上角
+![alt text](./github_upload.png)
+
+2.使用ACS的PC版本进行测试：https://store.steampowered.com/app/955900
+
+## 4. 如何发布你的MOD
 发布一个 Release，Tag 名称使用数字和点。
 例如：
 - 0.1
 - 1.2
 
-## 4.添加mod到官方列表
+## 5.添加mod到官方列表
 https://github.com/GSQStudio/acs1_mods/
 
 
